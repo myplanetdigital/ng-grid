@@ -34,7 +34,7 @@ ngGridDirectives.directive('ngViewport', [function() {
 
         function mousewheel() {
             isMouseWheelActive = true;
-            if (elm.focus) { elm.focus(); }
+            // if (elm.focus) { elm.focus(); }
             return true;
         }
 
